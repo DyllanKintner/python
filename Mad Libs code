@@ -1,0 +1,22 @@
+Mad1 = input("Person’s name: ")
+Mad2 = input("Noun: ")
+Mad3 = input("Adjective (feeling): ")
+Mad4 = input("Verb: ")
+Mad5 = input("Adjective (feeling): ")
+Mad6 = input("Animal: ")
+Mad7 = input("Verb: ")
+Mad8 = input("Color: ")
+Mad9 = input("Verb (ending in -ing): ")
+Mad10 = input("Adverb (ending in -ly): ")
+Mad11 = input("Number: ")
+Mad12 = input("Measure of time: ")
+Mad13 = input("Color: ")
+Mad14 = input("Animal: ")
+Mad15 = input("Animal: ")
+Mad16 = input("Silly word: ")
+Mad17 = input("Noun: ")
+
+Mad_libs = f'''This weekend I am going camping with {Mad1}. I packed my lantern, sleeping bag, and {Mad2}. I am so {Mad3} to {Mad4} in a tent. I am {Mad5} we might see a {Mad6}, they are kind of dangerous. We are going to hike, fish, and {Mad7}.
+I have heard that the {Mad8} lake is great for {Mad9}. Then we will {Mad10} through the forest for {Mad11} {Mad12}. If I see a {Mad13} {Mad14} while hiking, I am going to bring it home as a pet! At night, we will tell {Mad15} {Mad16} stories and roast {Mad17} around the campfire!!'''
+
+print(Mad_libs)
