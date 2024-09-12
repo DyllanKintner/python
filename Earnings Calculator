@@ -1,0 +1,13 @@
+earningsgoal=int(input("how much money you to save in a year "))
+
+months= earningsgoal / 12
+rounded_months=round(months, 2)
+
+weeks = earningsgoal / 52
+rounded_weeks=round(weeks, 2)
+
+day= earningsgoal / 365
+rounded_days=round(day, 2)
+
+money_saved=f"To save up {earningsgoal} dollars in one year, you will need to save {rounded_months} dollars per month, {rounded_weeks} per week, and {rounded_days} per day."
+print(money_saved)
