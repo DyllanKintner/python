@@ -1,0 +1,19 @@
+noun1=input("noun ")
+plural=input("plural noun ")
+noun2=input("noun")
+place=input("place")
+adjective=input("adjective ")
+place1=input("place")
+adjective1=input("adjective ")
+adjective2=input("adjective ")
+noun3=input("noun")
+plural2=input("plural noun ")
+verb=input("verb")
+verb2=input("verb ending in ing ")
+
+mad=f"""One day, I was walking through the {place} when I saw a {adjective} {noun1}. It was surrounded by a group of {plural}, all trying to figure out what to do.
+
+Suddenly, the {noun3} started to {verb}, and everyone was {verb2} around it. I ran over to grab my {noun2}, hoping to help.
+
+But instead, I accidentally dropped it into a {place1} full of {plural2}! It was a {adjective1} disaster. In the end, we all laughed and had a {adjective2} time together."""
+print(mad)
