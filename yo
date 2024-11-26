@@ -1,0 +1,56 @@
+import math
+l=[str(round(math.pi)) for i in range (1,6)]
+print(l)
+
+num7= 2**3**2**1
+print(num7)
+
+nunlist= [1,2,3,4,5,]
+alphalist= ["a", "b", "c", "d", "e"]
+print(nunlist is alphalist)
+print(nunlist == alphalist)
+numlist= alphalist
+print(numlist is alphalist)
+print(numlist == alphalist)
+
+rooms={1: 'Foyer', 2: 'Conference Room'}
+room = input('Enter the room number')
+if not room in rooms: #Incorrect use of NOT 
+    print('room dose not exist.')
+else:
+    print("The room name is " + rooms[room])
+
+
+import random
+randints=[random.randint(1,7)for i in range(1,8)]
+print(randints)
+
+z,y,x=2,1,0 # z=2 y=1 x=0
+x,z=z,y
+y=y-z
+x, y, z = y, z, x #this line works output: 0 1 2 
+z, y, x = x, z, y #also words output: 0 1 2
+y, z, x = x, y, z  #this line dose not work: output: 1 2 0 
+print(x,y,z)
+
+numbers= [0,1,2,3,4,5,6,7,8,9]
+index=0
+while(index<10): #put: here 
+    print(numbers[index])
+
+    if numbers[index]==6:#add a == here and replace the () with []
+        break
+    else:
+        index += 1
+
+x = 0
+y = 2
+z = len("Python")
+x = y > z
+print(x)
+
+
+x1="20"
+y1=3
+a=x1 *y1
+print(a)
